@@ -30,7 +30,17 @@ namespace DataStructure
             bst.TraversePostOrder(bst.Root);
 
             Console.WriteLine("The Size of Binary Tree is- "+ bst.getsize(bst.Root));
-            
+
+            Console.WriteLine("----------------------");
+            if (bst.Search(bst.Root, 63) == null)
+            {
+                Console.WriteLine("Key does not exist");
+            }
+            else
+            {
+                Console.WriteLine("Key exist");
+            }
+
         }
     }
 }
