@@ -13,9 +13,9 @@ namespace DataStructure
 
             Console.WriteLine("Preorder Traversal- ");
             bst.TravarsePreorder(bst.Root);
-            Console.WriteLine("Inorder Traversal= ");
+            Console.WriteLine("Inorder Traversal- ");
             bst.TraverseInOrder(bst.Root);
-            Console.WriteLine("Postorder Traversal= ");
+            Console.WriteLine("Postorder Traversal- ");
             bst.TraversePostOrder(bst.Root);
         }
     }
