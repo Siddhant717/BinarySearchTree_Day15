@@ -10,6 +10,17 @@ namespace DataStructure
             bst.Add(56);
             bst.Add(30);
             bst.Add(70);
+            bst.Add(22);
+            bst.Add(11);
+            bst.Add(3);
+            bst.Add(40);
+            bst.Add(16);
+            bst.Add(60);
+            bst.Add(65);
+            bst.Add(95);
+            bst.Add(63);
+            bst.Add(67);
+
 
             Console.WriteLine("Preorder Traversal- ");
             bst.TravarsePreorder(bst.Root);
@@ -17,6 +28,9 @@ namespace DataStructure
             bst.TraverseInOrder(bst.Root);
             Console.WriteLine("Postorder Traversal- ");
             bst.TraversePostOrder(bst.Root);
+
+            Console.WriteLine("The Size of Binary Tree is- "+ bst.getsize(bst.Root));
+            
         }
     }
 }
